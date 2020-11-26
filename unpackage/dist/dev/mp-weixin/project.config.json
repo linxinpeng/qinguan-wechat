@@ -1,0 +1,31 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "useMultiFrameRuntime": true,
+    "bundle": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx90e431ee6605ca5f",
+  "projectname": "qingua-wechat",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": []
+    }
+  }
+}

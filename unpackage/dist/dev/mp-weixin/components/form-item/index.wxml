@@ -1,0 +1,1 @@
+<view class="form-item"><view class="{{['form-item__label',required&&'is-required']}}">{{''+label}}<text>{{desc}}</text></view><view class="form-item__cont"><slot></slot></view></view>

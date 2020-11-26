@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "发布",
+  "usingComponents": {
+    "g-upload": "/components/g-upload/g-upload",
+    "form-item": "/components/form-item/index",
+    "select-input": "/components/select/index",
+    "xp-alert": "/components/xp-alert/index"
+  }
+}

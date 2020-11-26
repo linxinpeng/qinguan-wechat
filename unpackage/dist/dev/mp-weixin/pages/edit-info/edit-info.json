@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "编辑信息",
+  "usingComponents": {
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "g-upload": "/components/g-upload/g-upload",
+    "simple-address": "/components/simple-address/simple-address",
+    "head-title": "/components/title/index",
+    "form-item": "/components/form-item/index",
+    "select-item": "/components/select/index"
+  }
+}

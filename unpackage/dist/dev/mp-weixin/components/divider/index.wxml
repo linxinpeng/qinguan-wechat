@@ -1,0 +1,1 @@
+<view class="el-divider el-divider--horizontal"><view class="el-divider__text is-center"><slot></slot></view></view>

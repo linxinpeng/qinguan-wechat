@@ -1,0 +1,208 @@
+{
+	 "easycom": {
+	        // 下载安装的方式需要前面的"@/"，npm安装的方式无需"@/"
+	        // 下载安装方式
+	        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	        // npm安装方式
+	        // "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	    },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"usingComponents": {
+					// "van-button": "/wxcomponents/vant/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "谈合作"
+			}
+		},	
+		
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"usingComponents": {
+					// "van-button": "/wxcomponents/vant/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/reset/reset",
+			"style": {
+				"navigationBarTitleText": "重置密码"
+			}
+		},
+		{
+			"path": "pages/need-detail/need-detail",
+			"style": {
+				"navigationBarTitleText": "需求详情"
+			}
+		},
+		{
+			"path": "pages/searchDetail/searchDetail",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/contacts/contacts",
+			"style": {
+				"navigationBarTitleText": "人脉"
+			}
+		},
+		{
+			"path": "pages/release/release",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "components/divider/index",
+			"style": {}
+		},
+		{
+			"path": "pages/contacts-detail/index",
+			"style": {
+				"navigationBarTitleText": "人脉详情"
+			}
+		}, {
+			"path": "pages/release-needs/release-needs",
+			"style": {
+				"navigationBarTitleText": "需求详情"
+			}
+		}, {
+			"path": "pages/b-release/b-release",
+			"style": {
+				"navigationBarTitleText": "发布需求"
+			}
+		}, {
+			"path": "pages/member-center/member-center",
+			"style": {
+				"navigationBarTitleText": "会员中心"
+			}
+		}, {
+			"path": "pages/corporate-members/corporate-members",
+			"style": {
+				"navigationBarTitleText": "企业会员"
+			}
+		}, {
+			"path": "pages/cooperation-history/cooperation-history",
+			"style": {
+				"navigationBarTitleText": "合作历史"
+			}
+		}
+	    ,{
+            "path" : "pages/edit-info/edit-info",
+            "style" : {
+				"navigationBarTitleText": "编辑信息"
+			}
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" : {
+				"navigationBarTitleText": "反馈"
+			}
+        }
+        ,{
+            "path" : "pages/help/help",
+            "style" : {
+				"navigationBarTitleText": "帮助中心"
+			}
+        }
+        ,{
+            "path" : "pages/company-in/company-in",
+            "style" : {
+				"navigationBarTitleText": "公司入驻"
+			}
+        }
+        ,{
+            "path" : "pages/jfgsrz2/jfgsrz2",
+            "style" : {
+				"navigationBarTitleText": "甲方公司入驻"
+			}
+        }
+        ,{
+            "path" : "pages/jfgsrz3/jfgsrz3",
+            "style" : {
+				"navigationBarTitleText": "甲方公司入驻"
+			}
+        }
+        ,{
+            "path" : "pages/yfrz2/yfrz2",
+            "style" : {
+				"navigationBarTitleText": "乙方公司入驻"
+			}
+        }
+        ,{
+            "path" : "pages/yfrz3/yfrz3",
+            "style" : {
+				"navigationBarTitleText": "乙方公司入驻"
+			}
+        }
+        ,{
+            "path" : "pages/config/config",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+    ],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#2EB79E",
+		"spacing": "6px",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/thz0.png",
+				"selectedIconPath": "static/thz1.png",
+				"text": "谈合作"
+			}, {
+				"pagePath": "pages/contacts/contacts",
+				"iconPath": "static/rm0.png",
+				"selectedIconPath": "static/rm1.png",
+				"text": "人脉"
+			},
+			{
+				"pagePath": "pages/release/release",
+				"iconPath": "static/fb.png",
+				"selectedIconPath": "static/fb.png",
+				"text": "发布"
+			}, {
+				"pagePath": "pages/message/message",
+				"iconPath": "static/xx0.png",
+				"selectedIconPath": "static/xx1.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/wd0.png",
+				"selectedIconPath": "static/wd1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

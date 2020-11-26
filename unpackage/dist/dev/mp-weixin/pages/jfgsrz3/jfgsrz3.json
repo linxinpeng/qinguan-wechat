@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "甲方公司入驻",
+  "usingComponents": {
+    "form-item": "/components/form-item/index",
+    "head-title": "/components/title/index"
+  }
+}

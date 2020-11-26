@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "人脉详情",
+  "usingComponents": {
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "module-title": "/components/title/index"
+  }
+}

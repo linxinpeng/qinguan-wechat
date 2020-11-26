@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "乙方公司入驻",
+  "usingComponents": {
+    "u-upload": "/uview-ui/components/u-upload/u-upload",
+    "simple-address": "/components/simple-address/simple-address",
+    "select-input": "/components/select/index",
+    "form-item": "/components/form-item/index"
+  }
+}
