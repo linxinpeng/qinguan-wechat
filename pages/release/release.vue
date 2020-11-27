@@ -152,6 +152,10 @@
 					url:'../index/index'
 				})
 			},
+			
+			/**
+			 * 前往认证
+			 */
 			goRZ(){
 				this.show  = false
 				uni.navigateTo({

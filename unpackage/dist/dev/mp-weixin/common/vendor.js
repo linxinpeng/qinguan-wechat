@@ -1806,7 +1806,40 @@ uni$1;exports.default = _default;
 
 /***/ }),
 
-/***/ 10:
+/***/ 100:
+/*!*************************************************************************************************************!*\
+  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/user-art.jpg ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/static/user-art.jpg";
+
+/***/ }),
+
+/***/ 101:
+/*!*******************************************************************************************************!*\
+  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/qy.png ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAADqUlEQVRIS7WWf0zUZRzH35/ngJPCQPGCE6WBOmYHd2ejSJdGK1Fu1dhy/VGbUeqs1eyP1kY/bKRt2i+nzpxl3Lmmq/mPM4s7XEyZaCrTcQfYGJxQ4w4kLMEvpxzn82n3xUOBL3cn4fPf8+v9+rw/z+f7fR5CnM3k+n62YN2PDPF+c+lrnji3geJZaK1xlEnGLjBng6AQ45Ph7JRvLpleDsbaPymg4Dd7Lg3jeQavI5BZQ8jHzHaBhCPu0rWNIGItGFlc9s8hARaUBOYUgHMAygMwL1Z0d83/A6IWYniZuR8CCgMJJG/tIbPTrkm+B/FJl7IQhXEDDPpkrDDMV8W8yjU0XuuNGUPcgCQhYH/ChoI0gyr6Q0czvm5tmB6AXujwhaUYxRnZCMpb0BFBRwJ72y7iW687KiSmg3BavrQ+gyWzMiCZ8YG7DnqdDp/mPwUiQk13B7a0nIYSGtYERQXYjLmoePRJpCbqEZISn106gyNdbapQWdYifGxahkQh0DcUwK7WC/jF74XE2HrRBCxNn4t3Fj2G/Nv57g8O4UNPHer7fFidmQNT6hy0K//Cf0PBNvPTMMx4QIWG+ztbG1DT0znqRhOwzbwCtrkL1EVn+3zY3FSP3qGA2t9asBwvZi3Eyd6/8O7FWtVdxeIilBpz1fnyc9VjqksTEN60//FVON7TiUcefEg1/dUf5zEQCk4AREK1pBlQONuIqstjf1FRzyA/dQ4OLX1B1Sg5eRhXbg6OAjoH++H0Xx5Nhe/GdRzzeycc9JQB45UarnZjfYNr+gAdSj+c3Xcc+GM4GAKQNB4fLUWRQ471KbMkM5mdji6As+4HICTJGP7Z/QrAFgFY0x5Wyy5dPwMrM3PU4Z99bQiEQihKNyInJQ2+wHWc+rtrggFHRxN6bg6OjBOueFa/kUkF1Y4NRPxdZPWa+XnYbFoWy73m/CtnjqFloG9kjnmfx7buLco7WjVTn4g2EGWEx+clz1S/1qm036/6MDAcvkU5BMFLPKvWN6tXprX6wKuS5MGpiGrtIdAOd+nr741k6nazOO37GNg4DZD6ACvPtds2havzrldFZaWwFGXv/V8QwomAVMrabZsGIoFOeFVYXI43WfIOEJLvwY1k0M4kQ7DiQuHGMZeD5rMlv/bAAhHk3QCPlu9kMAbcOp14u7Gk/LT2eUQJ0+p0FEvijwB6Fszjg2liou1NZ//8CZWVcjKZuF52JleVJQFiAzO/BEIdhNjvKSmvjSeF/wEQYae30Q3tvwAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ 102:
+/*!*******************************************************************************************************!*\
+  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/zy.png ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAADmklEQVRIS92Wb0zVVRjHP8/5/e4lTFixNFrlG7QlDdjlWmmwasut9edNkkpiq5ZNxaJovHCtF2z5pjctMflTurVlMrXaMKE2Y8w3rRoXkjEzC7S2u0wmMAmM+/vztHtvCBcucmn1pvPq7JzzPJ/nz/ecHWERI9Q8WWjUvOs7dlVvjQxlYiqZHCqs12D2rc4OVfYAOYpGLeW17l1ZnyxkPz9AVUItFOO7GwR9AbgzjbN+MdYBYs6JSM0NA+lgUtwwcUfADrysYBANqnKTQIFCoUDeQhFO70tUVc8g/GKQK8CECkEpbYyFge7MHS3u5P8QsDIP9j5up61D56CPEchfml4b7ed8us5riu2cEq1eJhx6Oj2g/Uefu5cJBXnpAfu+8fiw178+IG5a+4ChqsTijZMupy4onz1jc3M2PHjA5eONdgJQ2+ESHUtGW1lk2FBokREgblCz1vBcyKK1z+PMkFJXZpEdgHXvuxzdnARUtDpcGE0GW32f4cXwPwDMzDXm6b8PONzn8cN/mUHdl25CFe3P2uRlp5boWL/H6J/JHNfcLoRuM4vvgesrqmAbcPxUQDodL7rJA8PKyFWlOD8py3iTy1YIS4Ppn4ufLiuDI6l7Et43WaSW9M1cnlLR7BI9ecjl8gQ8tkq46pCQ8I1BeGq1cKRfiXmzwEJM7t2v+Z44v01tBS2oKzNU3GNx/KzHH7G4A0N2QIheUTYdcTmx1SY3CypaXTYVGbYUWzR+63GwJ/WSgUQTuZc2xn4Hlsfn5SuEvU+kv8ndUZ+vf1Vq1ll8ftajvsvnliXQtsUmfuU2tLpcGp/OQlU6koCmWDPK9vg8bnBss835EWVgRBkcVratsVgSIBF960Y70fR49NGxpLNX1hqeD1l8cc7jzc7pLAReSgD+7kMPkDb0KZl2Dfo8usriYMSj8btpR/FytVXZ5ASh8qjLz8Nxr3JxfGz0rmuvVmmT8w6qten08dYjhpygsPukx9YSw0ff+0zOauj6AmFoHE5fTL5PgqmKVNuHrwFWNmhWru1+BVqeXoSZr4qYpshOuzoJmjHub9DcmO20CTycubtZuofmyKXALuolUcM5D3u4RQPqO2+j8iqoyRwkE4h5vWen1TLTZt5vS3i/U65G30MpWQgiIh0YuyayXeZ8Xa7/8apXE17uVar4u1GKUkAiitKpsKe3OnBqviAy+tnFjUONznpBtoE+BPKpGv+D3h3B0wtl9xevj64tVeCgwgAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ 11:
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js ***!
   \**********************************************************************************************************/
@@ -1935,29 +1968,7 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 100:
-/*!*******************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/qy.png ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAADqUlEQVRIS7WWf0zUZRzH35/ngJPCQPGCE6WBOmYHd2ejSJdGK1Fu1dhy/VGbUeqs1eyP1kY/bKRt2i+nzpxl3Lmmq/mPM4s7XEyZaCrTcQfYGJxQ4w4kLMEvpxzn82n3xUOBL3cn4fPf8+v9+rw/z+f7fR5CnM3k+n62YN2PDPF+c+lrnji3geJZaK1xlEnGLjBng6AQ45Ph7JRvLpleDsbaPymg4Dd7Lg3jeQavI5BZQ8jHzHaBhCPu0rWNIGItGFlc9s8hARaUBOYUgHMAygMwL1Z0d83/A6IWYniZuR8CCgMJJG/tIbPTrkm+B/FJl7IQhXEDDPpkrDDMV8W8yjU0XuuNGUPcgCQhYH/ChoI0gyr6Q0czvm5tmB6AXujwhaUYxRnZCMpb0BFBRwJ72y7iW687KiSmg3BavrQ+gyWzMiCZ8YG7DnqdDp/mPwUiQk13B7a0nIYSGtYERQXYjLmoePRJpCbqEZISn106gyNdbapQWdYifGxahkQh0DcUwK7WC/jF74XE2HrRBCxNn4t3Fj2G/Nv57g8O4UNPHer7fFidmQNT6hy0K//Cf0PBNvPTMMx4QIWG+ztbG1DT0znqRhOwzbwCtrkL1EVn+3zY3FSP3qGA2t9asBwvZi3Eyd6/8O7FWtVdxeIilBpz1fnyc9VjqksTEN60//FVON7TiUcefEg1/dUf5zEQCk4AREK1pBlQONuIqstjf1FRzyA/dQ4OLX1B1Sg5eRhXbg6OAjoH++H0Xx5Nhe/GdRzzeycc9JQB45UarnZjfYNr+gAdSj+c3Xcc+GM4GAKQNB4fLUWRQ471KbMkM5mdji6As+4HICTJGP7Z/QrAFgFY0x5Wyy5dPwMrM3PU4Z99bQiEQihKNyInJQ2+wHWc+rtrggFHRxN6bg6OjBOueFa/kUkF1Y4NRPxdZPWa+XnYbFoWy73m/CtnjqFloG9kjnmfx7buLco7WjVTn4g2EGWEx+clz1S/1qm036/6MDAcvkU5BMFLPKvWN6tXprX6wKuS5MGpiGrtIdAOd+nr741k6nazOO37GNg4DZD6ACvPtds2havzrldFZaWwFGXv/V8QwomAVMrabZsGIoFOeFVYXI43WfIOEJLvwY1k0M4kQ7DiQuHGMZeD5rMlv/bAAhHk3QCPlu9kMAbcOp14u7Gk/LT2eUQJ0+p0FEvijwB6Fszjg2liou1NZ//8CZWVcjKZuF52JleVJQFiAzO/BEIdhNjvKSmvjSeF/wEQYae30Q3tvwAAAABJRU5ErkJggg=="
-
-/***/ }),
-
-/***/ 101:
-/*!*******************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/zy.png ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAADmklEQVRIS92Wb0zVVRjHP8/5/e4lTFixNFrlG7QlDdjlWmmwasut9edNkkpiq5ZNxaJovHCtF2z5pjctMflTurVlMrXaMKE2Y8w3rRoXkjEzC7S2u0wmMAmM+/vztHtvCBcucmn1pvPq7JzzPJ/nz/ecHWERI9Q8WWjUvOs7dlVvjQxlYiqZHCqs12D2rc4OVfYAOYpGLeW17l1ZnyxkPz9AVUItFOO7GwR9AbgzjbN+MdYBYs6JSM0NA+lgUtwwcUfADrysYBANqnKTQIFCoUDeQhFO70tUVc8g/GKQK8CECkEpbYyFge7MHS3u5P8QsDIP9j5up61D56CPEchfml4b7ed8us5riu2cEq1eJhx6Oj2g/Uefu5cJBXnpAfu+8fiw178+IG5a+4ChqsTijZMupy4onz1jc3M2PHjA5eONdgJQ2+ESHUtGW1lk2FBokREgblCz1vBcyKK1z+PMkFJXZpEdgHXvuxzdnARUtDpcGE0GW32f4cXwPwDMzDXm6b8PONzn8cN/mUHdl25CFe3P2uRlp5boWL/H6J/JHNfcLoRuM4vvgesrqmAbcPxUQDodL7rJA8PKyFWlOD8py3iTy1YIS4Ppn4ufLiuDI6l7Et43WaSW9M1cnlLR7BI9ecjl8gQ8tkq46pCQ8I1BeGq1cKRfiXmzwEJM7t2v+Z44v01tBS2oKzNU3GNx/KzHH7G4A0N2QIheUTYdcTmx1SY3CypaXTYVGbYUWzR+63GwJ/WSgUQTuZc2xn4Hlsfn5SuEvU+kv8ndUZ+vf1Vq1ll8ftajvsvnliXQtsUmfuU2tLpcGp/OQlU6koCmWDPK9vg8bnBss835EWVgRBkcVratsVgSIBF960Y70fR49NGxpLNX1hqeD1l8cc7jzc7pLAReSgD+7kMPkDb0KZl2Dfo8usriYMSj8btpR/FytVXZ5ASh8qjLz8Nxr3JxfGz0rmuvVmmT8w6qten08dYjhpygsPukx9YSw0ff+0zOauj6AmFoHE5fTL5PgqmKVNuHrwFWNmhWru1+BVqeXoSZr4qYpshOuzoJmjHub9DcmO20CTycubtZuofmyKXALuolUcM5D3u4RQPqO2+j8iqoyRwkE4h5vWen1TLTZt5vS3i/U65G30MpWQgiIh0YuyayXeZ8Xa7/8apXE17uVar4u1GKUkAiitKpsKe3OnBqviAy+tnFjUONznpBtoE+BPKpGv+D3h3B0wtl9xevj64tVeCgwgAAAABJRU5ErkJggg=="
-
-/***/ }),
-
-/***/ 11:
+/***/ 12:
 /*!***********************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/index.js ***!
   \***********************************************************************************************************/
@@ -1966,15 +1977,11 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB7
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
-var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 12));
+var _mixin = _interopRequireDefault(__webpack_require__(/*! ./libs/mixin/mixin.js */ 13));
 
 
 
-var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 13));
-
-
-
-
+var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 14));
 
 
 
@@ -1991,56 +1998,60 @@ var _request = _interopRequireDefault(__webpack_require__(/*! ./libs/request */ 
 
 
 
-var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 17));
-
-var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 18));
-
-var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 19));
-
-var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 20));
-
-var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 21));
-
-var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 22));
-
-var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 23));
-
-var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 24));
-
-var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 25));
-
-var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 15));
-
-var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 14));
-
-var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 26));
-
-
-var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 16));
-
-var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 27));
-
-var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 28));
-
-var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 29));
-
-var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 30));
-
-var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 31));
 
 
 
-var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 32);
 
-var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 33));
+var _queryParams = _interopRequireDefault(__webpack_require__(/*! ./libs/function/queryParams.js */ 18));
 
-var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 34));
+var _route = _interopRequireDefault(__webpack_require__(/*! ./libs/function/route.js */ 19));
+
+var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFormat.js */ 20));
+
+var _timeFrom = _interopRequireDefault(__webpack_require__(/*! ./libs/function/timeFrom.js */ 21));
+
+var _colorGradient = _interopRequireDefault(__webpack_require__(/*! ./libs/function/colorGradient.js */ 22));
+
+var _guid = _interopRequireDefault(__webpack_require__(/*! ./libs/function/guid.js */ 23));
+
+var _color = _interopRequireDefault(__webpack_require__(/*! ./libs/function/color.js */ 24));
+
+var _type2icon = _interopRequireDefault(__webpack_require__(/*! ./libs/function/type2icon.js */ 25));
+
+var _randomArray = _interopRequireDefault(__webpack_require__(/*! ./libs/function/randomArray.js */ 26));
+
+var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepClone.js */ 16));
+
+var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ./libs/function/deepMerge.js */ 15));
+
+var _addUnit = _interopRequireDefault(__webpack_require__(/*! ./libs/function/addUnit.js */ 27));
+
+
+var _test = _interopRequireDefault(__webpack_require__(/*! ./libs/function/test.js */ 17));
+
+var _random = _interopRequireDefault(__webpack_require__(/*! ./libs/function/random.js */ 28));
+
+var _trim = _interopRequireDefault(__webpack_require__(/*! ./libs/function/trim.js */ 29));
+
+var _toast = _interopRequireDefault(__webpack_require__(/*! ./libs/function/toast.js */ 30));
+
+var _getParent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/getParent.js */ 31));
+
+var _$parent = _interopRequireDefault(__webpack_require__(/*! ./libs/function/$parent.js */ 32));
 
 
 
-var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 35));
+var _sys = __webpack_require__(/*! ./libs/function/sys.js */ 33);
 
-var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 36));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
+var _debounce = _interopRequireDefault(__webpack_require__(/*! ./libs/function/debounce.js */ 34));
+
+var _throttle = _interopRequireDefault(__webpack_require__(/*! ./libs/function/throttle.js */ 35));
+
+
+
+var _config = _interopRequireDefault(__webpack_require__(/*! ./libs/config/config.js */ 36));
+
+var _zIndex = _interopRequireDefault(__webpack_require__(/*! ./libs/config/zIndex.js */ 37));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 引入全局mixin
 // 引入关于是否mixin集成小程序分享的配置
 // import wxshare from './libs/mixin/mpShare.js'
 // 全局挂载引入http相关请求拦截插件
@@ -2104,7 +2115,7 @@ var install = function install(Vue) {
 
 /***/ }),
 
-/***/ 12:
+/***/ 13:
 /*!**********************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/mixin/mixin.js ***!
   \**********************************************************************************************************************/
@@ -2160,7 +2171,7 @@ var install = function install(Vue) {
 
 /***/ }),
 
-/***/ 13:
+/***/ 14:
 /*!************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/request/index.js ***!
   \************************************************************************************************************************/
@@ -2168,8 +2179,8 @@ var install = function install(Vue) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 14));
-var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepMerge = _interopRequireDefault(__webpack_require__(/*! ../function/deepMerge */ 15));
+var _test = _interopRequireDefault(__webpack_require__(/*! ../function/test */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var
 Request = /*#__PURE__*/function () {_createClass(Request, [{ key: "setConfig",
     // 设置全局默认配置
     value: function setConfig(customConfig) {
@@ -2341,7 +2352,7 @@ new Request();exports.default = _default;
 
 /***/ }),
 
-/***/ 14:
+/***/ 15:
 /*!*****************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/deepMerge.js ***!
   \*****************************************************************************************************************************/
@@ -2349,7 +2360,7 @@ new Request();exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 15));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _deepClone = _interopRequireDefault(__webpack_require__(/*! ./deepClone */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 // JS对象深度合并
 function deepMerge() {var target = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};var source = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
@@ -2382,7 +2393,7 @@ deepMerge;exports.default = _default;
 
 /***/ }),
 
-/***/ 15:
+/***/ 16:
 /*!*****************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/deepClone.js ***!
   \*****************************************************************************************************************************/
@@ -2416,7 +2427,7 @@ deepClone;exports.default = _default;
 
 /***/ }),
 
-/***/ 16:
+/***/ 17:
 /*!************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/test.js ***!
   \************************************************************************************************************************/
@@ -2659,7 +2670,7 @@ function code(value) {var len = arguments.length > 1 && arguments[1] !== undefin
 
 /***/ }),
 
-/***/ 17:
+/***/ 18:
 /*!*******************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/queryParams.js ***!
   \*******************************************************************************************************************************/
@@ -2728,7 +2739,7 @@ queryParams;exports.default = _default;
 
 /***/ }),
 
-/***/ 18:
+/***/ 19:
 /*!*************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/route.js ***!
   \*************************************************************************************************************************/
@@ -2736,7 +2747,7 @@ queryParams;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _queryParams = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/queryParams.js */ 18));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 /**
                                                                                                                                                                                                                                                                                             * 路由跳转
                                                                                                                                                                                                                                                                                             * 注意:本方法没有对跳转的回调函数进行封装
@@ -2822,69 +2833,6 @@ function route() {var options = arguments.length > 0 && arguments[0] !== undefin
 
 route;exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 19:
-/*!******************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/timeFormat.js ***!
-  \******************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // padStart 的 polyfill，因为某些机型或情况，还无法支持es7的padStart，比如电脑版的微信小程序
-// 所以这里做一个兼容polyfill的兼容处理
-if (!String.prototype.padStart) {
-  // 为了方便表示这里 fillString 用了ES6 的默认参数，不影响理解
-  String.prototype.padStart = function (maxLength) {var fillString = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ' ';
-    if (Object.prototype.toString.call(fillString) !== "[object String]") throw new TypeError(
-    'fillString must be String');
-    var str = this;
-    // 返回 String(str) 这里是为了使返回的值是字符串字面量，在控制台中更符合直觉
-    if (str.length >= maxLength) return String(str);
-
-    var fillLength = maxLength - str.length,
-    times = Math.ceil(fillLength / fillString.length);
-    while (times >>= 1) {
-      fillString += fillString;
-      if (times === 1) {
-        fillString += fillString;
-      }
-    }
-    return fillString.slice(0, fillLength) + str;
-  };
-}
-
-function timeFormat() {var timestamp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;var fmt = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy-mm-dd';
-  // 其他更多是格式化有如下:
-  // yyyy:mm:dd|yyyy:mm|yyyy年mm月dd日|yyyy年mm月dd日 hh时MM分等,可自定义组合
-  timestamp = parseInt(timestamp);
-  // 如果为null,则格式化当前时间
-  if (!timestamp) timestamp = Number(new Date());
-  // 判断用户输入的时间戳是秒还是毫秒,一般前端js获取的时间戳是毫秒(13位),后端传过来的为秒(10位)
-  if (timestamp.toString().length == 10) timestamp *= 1000;
-  var date = new Date(timestamp);
-  var ret;
-  var opt = {
-    "y+": date.getFullYear().toString(), // 年
-    "m+": (date.getMonth() + 1).toString(), // 月
-    "d+": date.getDate().toString(), // 日
-    "h+": date.getHours().toString(), // 时
-    "M+": date.getMinutes().toString(), // 分
-    "s+": date.getSeconds().toString() // 秒
-    // 有其他格式化字符需求可以继续添加，必须转化成字符串
-  };
-  for (var k in opt) {
-    ret = new RegExp("(" + k + ")").exec(fmt);
-    if (ret) {
-      fmt = fmt.replace(ret[1], ret[1].length == 1 ? opt[k] : opt[k].padStart(ret[1].length, "0"));
-    };
-  };
-  return fmt;
-}var _default =
-
-timeFormat;exports.default = _default;
 
 /***/ }),
 
@@ -8936,6 +8884,69 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 20:
+/*!******************************************************************************************************************************!*\
+  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/timeFormat.js ***!
+  \******************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; // padStart 的 polyfill，因为某些机型或情况，还无法支持es7的padStart，比如电脑版的微信小程序
+// 所以这里做一个兼容polyfill的兼容处理
+if (!String.prototype.padStart) {
+  // 为了方便表示这里 fillString 用了ES6 的默认参数，不影响理解
+  String.prototype.padStart = function (maxLength) {var fillString = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : ' ';
+    if (Object.prototype.toString.call(fillString) !== "[object String]") throw new TypeError(
+    'fillString must be String');
+    var str = this;
+    // 返回 String(str) 这里是为了使返回的值是字符串字面量，在控制台中更符合直觉
+    if (str.length >= maxLength) return String(str);
+
+    var fillLength = maxLength - str.length,
+    times = Math.ceil(fillLength / fillString.length);
+    while (times >>= 1) {
+      fillString += fillString;
+      if (times === 1) {
+        fillString += fillString;
+      }
+    }
+    return fillString.slice(0, fillLength) + str;
+  };
+}
+
+function timeFormat() {var timestamp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;var fmt = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'yyyy-mm-dd';
+  // 其他更多是格式化有如下:
+  // yyyy:mm:dd|yyyy:mm|yyyy年mm月dd日|yyyy年mm月dd日 hh时MM分等,可自定义组合
+  timestamp = parseInt(timestamp);
+  // 如果为null,则格式化当前时间
+  if (!timestamp) timestamp = Number(new Date());
+  // 判断用户输入的时间戳是秒还是毫秒,一般前端js获取的时间戳是毫秒(13位),后端传过来的为秒(10位)
+  if (timestamp.toString().length == 10) timestamp *= 1000;
+  var date = new Date(timestamp);
+  var ret;
+  var opt = {
+    "y+": date.getFullYear().toString(), // 年
+    "m+": (date.getMonth() + 1).toString(), // 月
+    "d+": date.getDate().toString(), // 日
+    "h+": date.getHours().toString(), // 时
+    "M+": date.getMinutes().toString(), // 分
+    "s+": date.getSeconds().toString() // 秒
+    // 有其他格式化字符需求可以继续添加，必须转化成字符串
+  };
+  for (var k in opt) {
+    ret = new RegExp("(" + k + ")").exec(fmt);
+    if (ret) {
+      fmt = fmt.replace(ret[1], ret[1].length == 1 ? opt[k] : opt[k].padStart(ret[1].length, "0"));
+    };
+  };
+  return fmt;
+}var _default =
+
+timeFormat;exports.default = _default;
+
+/***/ }),
+
+/***/ 21:
 /*!****************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/timeFrom.js ***!
   \****************************************************************************************************************************/
@@ -8943,7 +8954,7 @@ internalMixin(Vue);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _timeFormat = _interopRequireDefault(__webpack_require__(/*! ../../libs/function/timeFormat.js */ 20));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 /**
                                                                                                                                                                                                                                                                                           * 时间戳转为多久之前
@@ -8992,7 +9003,7 @@ timeFrom;exports.default = _default;
 
 /***/ }),
 
-/***/ 21:
+/***/ 22:
 /*!*********************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/colorGradient.js ***!
   \*********************************************************************************************************************************/
@@ -9102,7 +9113,7 @@ function rgbToHex(rgb) {
 
 /***/ }),
 
-/***/ 22:
+/***/ 23:
 /*!************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/guid.js ***!
   \************************************************************************************************************************/
@@ -9154,7 +9165,7 @@ guid;exports.default = _default;
 
 /***/ }),
 
-/***/ 23:
+/***/ 24:
 /*!*************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/color.js ***!
   \*************************************************************************************************************************/
@@ -9202,7 +9213,7 @@ color;exports.default = _default;
 
 /***/ }),
 
-/***/ 24:
+/***/ 25:
 /*!*****************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/type2icon.js ***!
   \*****************************************************************************************************************************/
@@ -9248,7 +9259,7 @@ type2icon;exports.default = _default;
 
 /***/ }),
 
-/***/ 25:
+/***/ 26:
 /*!*******************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/randomArray.js ***!
   \*******************************************************************************************************************************/
@@ -9266,7 +9277,7 @@ randomArray;exports.default = _default;
 
 /***/ }),
 
-/***/ 26:
+/***/ 27:
 /*!***************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/addUnit.js ***!
   \***************************************************************************************************************************/
@@ -9274,7 +9285,7 @@ randomArray;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 16));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = addUnit;var _test = _interopRequireDefault(__webpack_require__(/*! ./test.js */ 17));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 // 添加单位，如果有rpx，%，px等单位结尾或者值为auto，直接返回，否则加上rpx单位结尾
 function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'auto';var unit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'rpx';
@@ -9285,7 +9296,7 @@ function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefin
 
 /***/ }),
 
-/***/ 27:
+/***/ 28:
 /*!**************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/random.js ***!
   \**************************************************************************************************************************/
@@ -9306,7 +9317,7 @@ random;exports.default = _default;
 
 /***/ }),
 
-/***/ 28:
+/***/ 29:
 /*!************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/trim.js ***!
   \************************************************************************************************************************/
@@ -9329,27 +9340,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 }var _default =
 
 trim;exports.default = _default;
-
-/***/ }),
-
-/***/ 29:
-/*!*************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/toast.js ***!
-  \*************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
-  uni.showToast({
-    title: title,
-    icon: 'none',
-    duration: duration });
-
-}var _default =
-
-toast;exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 
@@ -9385,6 +9375,38 @@ module.exports = g;
 /***/ }),
 
 /***/ 30:
+/*!*************************************************************************************************************************!*\
+  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/toast.js ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;function toast(title) {var duration = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1500;
+  uni.showToast({
+    title: title,
+    icon: 'none',
+    duration: duration });
+
+}var _default =
+
+toast;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 309:
+/*!**********************************************************!*\
+  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ 310);
+
+/***/ }),
+
+/***/ 31:
 /*!*****************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/getParent.js ***!
   \*****************************************************************************************************************************/
@@ -9442,18 +9464,7 @@ function getParent(name, keys) {
 
 /***/ }),
 
-/***/ 308:
-/*!**********************************************************!*\
-  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! regenerator-runtime */ 309);
-
-/***/ }),
-
-/***/ 309:
+/***/ 310:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -9484,7 +9495,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 310);
+module.exports = __webpack_require__(/*! ./runtime */ 311);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -9501,36 +9512,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 31:
-/*!***************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/$parent.js ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
-// 值(默认为undefined)，就是查找最顶层的$parent
-function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options && parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {
-      return parent;
-    }
-  }
-  return false;
-}
-
-/***/ }),
-
-/***/ 310:
+/***/ 311:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -10262,7 +10244,7 @@ function $parent() {var name = arguments.length > 0 && arguments[0] !== undefine
 
 /***/ }),
 
-/***/ 318:
+/***/ 319:
 /*!*****************************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/components/simple-address/city-data/province.js ***!
   \*****************************************************************************************************************************************/
@@ -10416,7 +10398,36 @@ provinceData;exports.default = _default;
 
 /***/ }),
 
-/***/ 319:
+/***/ 32:
+/*!***************************************************************************************************************************!*\
+  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/$parent.js ***!
+  \***************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
+// 值(默认为undefined)，就是查找最顶层的$parent
+function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options && parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {
+      return parent;
+    }
+  }
+  return false;
+}
+
+/***/ }),
+
+/***/ 320:
 /*!*************************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/components/simple-address/city-data/city.js ***!
   \*************************************************************************************************************************************/
@@ -11934,26 +11945,7 @@ cityData;exports.default = _default;
 
 /***/ }),
 
-/***/ 32:
-/*!***********************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/sys.js ***!
-  \***********************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.os = os;exports.sys = sys;function os() {
-  return uni.getSystemInfoSync().platform;
-};
-
-function sys() {
-  return uni.getSystemInfoSync();
-}
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 320:
+/***/ 321:
 /*!*************************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/components/simple-address/city-data/area.js ***!
   \*************************************************************************************************************************************/
@@ -24513,6 +24505,25 @@ areaData;exports.default = _default;
 /***/ }),
 
 /***/ 33:
+/*!***********************************************************************************************************************!*\
+  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/sys.js ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.os = os;exports.sys = sys;function os() {
+  return uni.getSystemInfoSync().platform;
+};
+
+function sys() {
+  return uni.getSystemInfoSync();
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+
+/***/ 34:
 /*!****************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/debounce.js ***!
   \****************************************************************************************************************************/
@@ -24552,7 +24563,7 @@ debounce;exports.default = _default;
 
 /***/ }),
 
-/***/ 34:
+/***/ 35:
 /*!****************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/throttle.js ***!
   \****************************************************************************************************************************/
@@ -24595,7 +24606,7 @@ throttle;exports.default = _default;
 
 /***/ }),
 
-/***/ 35:
+/***/ 36:
 /*!************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/config/config.js ***!
   \************************************************************************************************************************/
@@ -24619,7 +24630,7 @@ var version = '1.7.3';var _default =
 
 /***/ }),
 
-/***/ 36:
+/***/ 37:
 /*!************************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/config/zIndex.js ***!
   \************************************************************************************************************************/
@@ -24660,7 +24671,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 423:
+/***/ 51:
 /*!***************************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/pages/wechat-login.js ***!
   \***************************************************************************************************************/
@@ -24668,7 +24679,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _index = __webpack_require__(/*! @/api/index.js */ 50);var _default =
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _index = __webpack_require__(/*! @/api/index.js */ 8);var _default =
 
 
 {
@@ -24703,7 +24714,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 50:
+/***/ 8:
 /*!******************************************************************************************************!*\
   !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/api/index.js ***!
   \******************************************************************************************************/
@@ -24742,17 +24753,6 @@ function APIPOST(url, data, callback) {
   api('POST', url, data, callback);
 }
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-
-/***/ 99:
-/*!*************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/user-art.jpg ***!
-  \*************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/static/user-art.jpg";
 
 /***/ })
 

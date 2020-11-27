@@ -119,7 +119,7 @@
 								status:['../../static/qy.png'],
 								desc: item.describe,
 								tag: item.order_type,
-								time: item.effective_s_time,
+								time: item.cn_time,
 								show: item.hits
 							}
 						})

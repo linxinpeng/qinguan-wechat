@@ -191,6 +191,9 @@
   -webkit-align-items: center;
           align-items: center;
   margin-bottom: 20rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
 }
 .need-detail__contact .contact__row-item {
   margin-right: 20rpx;

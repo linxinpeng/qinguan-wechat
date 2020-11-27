@@ -2,7 +2,7 @@
 	<view class="me">
 		<view class="me-head">
 			<view class="me-head__icon">
-				<image :src="userInfo.avatarUrl?userInfo.avatarUrl:`../../static/user-art.jpg`" mode="widthFix"></image>
+				<image :src="userInfo.avatar?userInfo.avatar:`../../static/user-art.jpg`" mode="widthFix"></image>
 			</view>
 			<view class="me-head__actions">
 				<template v-if="currStatus == 0">
@@ -10,19 +10,13 @@
 						登录/注册
 					</view>
 				</template>
-				<template v-if="currStatus == 1">
+				<template v-else>
 					<view class="me-head__more">
-						<view class="more-name">{{userInfo.nickName || '暂无昵称'}}</view>
-						<text>手机号{{phone}}</text>
+						<view class="more-name">{{userInfo.username || '暂无昵称'}}</view>
+						<text>{{userInfo.mobile}}</text>
 					</view>
-					<view class="more-btn">未认证</view>
-				</template>
-				<template v-if="currStatus == 2">
-					<view class="me-head__more">
-						<view class="more-name">{{userInfo.nickName || '暂无昵称'}}</view>
-						<text>手机号{{phone}}</text>
-					</view>
-					<view class="more-btn has-rz">已认证</view>
+					<view v-if="currStatus == 1" class="more-btn">未认证</view>
+					<view v-else class="more-btn has-rz">已认证</view>
 				</template>
 			</view>
 		</view>
@@ -56,19 +50,19 @@
 		<view class="check">
 			<view class="check-item">
 				<label>剩余查看次数：</label>
-				<text>100</text>
+				<text>{{userInfo.keyword_match_num || 0}}</text>
 			</view>
 			<view class="check-item">
 				<label>刷新次数：</label>
-				<text>78</text>
+				<text>{{userInfo.refresh_times || 0}}</text>
 			</view>
 			<view class="check-item">
 				<label>置顶次数：</label>
-				<text>10</text>
+				<text>{{userInfo.top_times || 0}}</text>
 			</view>
 			<view class="check-item">
 				<label>子账户数：</label>
-				<text>20</text>
+				<text>{{userInfo.sub_account_num || 0}}</text>
 			</view>
 		</view>
 
@@ -84,7 +78,7 @@
 			<view class="card-wrap" v-else>
 				<view class="wrap-info">
 					<image src="../../static/vip-liang.png" mode="widthFix"></image>
-					<text>2021.06.25会员到期</text>
+					<text>{{userInfo.level_expiretime}}会员到期</text>
 					<view>查看权益</view>
 				</view>
 				<image src="../../static/bg-vip.png" mode="widthFix"></image>
@@ -132,6 +126,16 @@
 				userInfo: {},
 				phone: ''
 			}
+		},
+		onLoad() {
+			const userinfo = uni.getStorageSync('userinfo');
+			if (userinfo) {
+				this.userInfo = userinfo;
+			};
+
+			const vip = uni.getStorageSync('vip')
+			this.currStatus = vip ? 2 : 1
+
 		},
 		methods: {
 

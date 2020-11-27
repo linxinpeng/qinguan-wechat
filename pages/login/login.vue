@@ -99,7 +99,16 @@
 							showCancel: false
 						})
 					} else {
-						 uni.navigateBack()
+						// 存储用户信息
+						uni.setStorageSync('userinfo',resp.data.data.userinfo);
+						// 存储用户vip状态
+						uni.setStorageSync('vip',resp.data.data.userinfo.level > 0);
+						// 存储token
+						uni.setStorageSync('token',resp.data.data.userinfo.token)
+						uni.switchTab({
+							url:'../me/me'
+						})
+						// uni.navigateBack()
 					}
 				})
 

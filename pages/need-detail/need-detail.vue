@@ -58,20 +58,22 @@
 				<view class="contact__row">
 					<view class="contact__row-item">
 						<image src="../../static/phone.png" mode="widthFix"></image>
-						<text>手机号 {{data.mobile}}</text>
+						<text>手机号 {{contact.mobile}}</text>
 					</view>
 					<view class="contact__row-item">
 						<image src="../../static/wx.png" mode="widthFix"></image>
-						<text>微信 {{data.wxid}}</text>
+						<text>微信 {{contact.wechat}}</text>
 					</view>
 				</view>
 				<view class="contact__row">
-					<image src="../../static/qq.png" mode="widthFix"></image>
-					<text>QQ {{data.qqid}}</text>
+					<view class="contact__row-item">
+						<image src="../../static/qq.png" mode="widthFix"></image>
+						<text>QQ {{contact.qq}}</text>
+					</view>
 				</view>
 				<view class="mask" v-if="!isVip">
 					<text>升级VIP即可免费对接该渠道服务商</text>
-					<view @click="handleUpVip">升级会员</view>
+					<view @click="handleUpgradeVIP">升级会员</view>
 				</view>
 			</view>
 		</view>
@@ -99,41 +101,84 @@
 </template>
 
 <script>
-	import {APIPOST} from "@/api/index.js"
+	import {
+		APIPOST
+	} from "@/api/index.js"
 	import HeadTitle from "@/components/title/index.vue"
 	export default {
 		data() {
 			return {
 				isVip: false,
-				
-				data: {}
+				data: {},
+
+				contact: {
+					mobile: '*',
+					wechat: '*',
+					qq: '*'
+				}
 			}
 		},
-		onLoad(options){
-			this.init(options)
+		onLoad(options) {
+			const vip = uni.getStorageSync('vip');
+			const token = uni.getStorageSync('token')
+
+			this.init(options, token)
+			this.isVip = vip;
+			// 如果当前为vip用户可查看联系方式
+			if (this.isVip) {
+				this.queryContact(options, token)
+			}
 		},
 		methods: {
-			init(options){
+			init(options, token = '') {
 				const vm = this;
 				const params = {
 					order_id: options.orderId,
-					token: 'xasdsadasa'
+					token
 				};
-				APIPOST('/api/business/detail',params,(resp) =>{
-					if(resp.data.code == 1){
+				APIPOST('/api/business/detail', params, (resp) => {
+					if (resp.data.code == 1) {
 						vm.data = resp.data.data
-						console.log(vm.data)
-					}else{
+					} else {
 						uni.showToast({
 							title: resp.msg
 						})
 					}
 				})
 			},
-			
-			handleUpVip(){
+
+			/**
+			 * 获取联系方式接口
+			 */
+			queryContact(options, token) {
+				const vm = this;
+				const params = {
+					order_id: options.orderId,
+					token
+				};
+
+				APIPOST('/api/business/vip_order_info', params, (resp) => {
+					if (resp.data.code == 1) {
+						vm.contact = {
+							mobile: resp.data.data.mobile,
+							qq: resp.data.data.qqid,
+							wechat: resp.data.data.wxid
+						}
+						// vm.data = resp.data.data
+					} else {
+						uni.showToast({
+							title: resp.msg
+						})
+					}
+				})
+			},
+
+			/**
+			 * 升级Vip
+			 */
+			handleUpgradeVIP() {
 				uni.switchTab({
-					url:"../me/me"
+					url: "../me/me"
 				})
 			}
 		},
@@ -260,12 +305,13 @@
 		&__contact {
 			padding-bottom: 30rpx;
 			border-bottom: 2rpx solid #ededed;
-			
+
 			.contact {
 				margin-top: 32rpx;
 				position: relative;
 				height: 140rpx;
-				.mask{
+
+				.mask {
 					position: absolute;
 					top: 0;
 					left: 0;
@@ -278,12 +324,14 @@
 					flex-direction: column;
 					align-items: center;
 					justify-content: center;
-					text{
+
+					text {
 						font-size: 24rpx;
 						color: #FFCAA5;
 						text-shadow: 0px 4rpx 4rpx rgba(0, 0, 0, 0.18);
 					}
-					view{
+
+					view {
 						display: flex;
 						align-items: center;
 						justify-content: center;
@@ -297,11 +345,12 @@
 						color: #6A3313;
 					}
 				}
+
 				&__row {
 					display: flex;
 					align-items: center;
 					margin-bottom: 20rpx;
-
+					justify-content: space-between;
 					&-item {
 						margin-right: 20rpx;
 					}
@@ -331,14 +380,15 @@
 					font-size: 29rpx;
 					color: #666666;
 					border-bottom: 2rpx solid #EDEDED;
-					
-					text{
+
+					text {
 						display: block;
 						width: 100%;
 						overflow: hidden;
 						text-overflow: ellipsis;
 						white-space: nowrap;
 					}
+
 					/* 追加这一行代码 */
 					&:hover {
 						color: #1BBC9C;

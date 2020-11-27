@@ -4,9 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": false,
-    "useMultiFrameRuntime": true,
-    "bundle": false
+    "urlCheck": false
   },
   "compileType": "miniprogram",
   "libVersion": "",
