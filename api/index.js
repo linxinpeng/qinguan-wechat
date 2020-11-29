@@ -28,3 +28,4 @@ export function APIGET(url, data, callback) {
 export function APIPOST(url, data, callback) {
 	api('POST', url, data, callback)
 }
+

@@ -904,7 +904,7 @@ function initData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_NAME":"qingua-wechat","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -1806,10 +1806,10 @@ uni$1;exports.default = _default;
 
 /***/ }),
 
-/***/ 100:
-/*!*************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/user-art.jpg ***!
-  \*************************************************************************************************************/
+/***/ 108:
+/*!***************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/static/user-art.jpg ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1817,25 +1817,14 @@ module.exports = "/static/user-art.jpg";
 
 /***/ }),
 
-/***/ 101:
-/*!*******************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/qy.png ***!
-  \*******************************************************************************************************/
+/***/ 109:
+/*!*********************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/static/qy.png ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAADqUlEQVRIS7WWf0zUZRzH35/ngJPCQPGCE6WBOmYHd2ejSJdGK1Fu1dhy/VGbUeqs1eyP1kY/bKRt2i+nzpxl3Lmmq/mPM4s7XEyZaCrTcQfYGJxQ4w4kLMEvpxzn82n3xUOBL3cn4fPf8+v9+rw/z+f7fR5CnM3k+n62YN2PDPF+c+lrnji3geJZaK1xlEnGLjBng6AQ45Ph7JRvLpleDsbaPymg4Dd7Lg3jeQavI5BZQ8jHzHaBhCPu0rWNIGItGFlc9s8hARaUBOYUgHMAygMwL1Z0d83/A6IWYniZuR8CCgMJJG/tIbPTrkm+B/FJl7IQhXEDDPpkrDDMV8W8yjU0XuuNGUPcgCQhYH/ChoI0gyr6Q0czvm5tmB6AXujwhaUYxRnZCMpb0BFBRwJ72y7iW687KiSmg3BavrQ+gyWzMiCZ8YG7DnqdDp/mPwUiQk13B7a0nIYSGtYERQXYjLmoePRJpCbqEZISn106gyNdbapQWdYifGxahkQh0DcUwK7WC/jF74XE2HrRBCxNn4t3Fj2G/Nv57g8O4UNPHer7fFidmQNT6hy0K//Cf0PBNvPTMMx4QIWG+ztbG1DT0znqRhOwzbwCtrkL1EVn+3zY3FSP3qGA2t9asBwvZi3Eyd6/8O7FWtVdxeIilBpz1fnyc9VjqksTEN60//FVON7TiUcefEg1/dUf5zEQCk4AREK1pBlQONuIqstjf1FRzyA/dQ4OLX1B1Sg5eRhXbg6OAjoH++H0Xx5Nhe/GdRzzeycc9JQB45UarnZjfYNr+gAdSj+c3Xcc+GM4GAKQNB4fLUWRQ471KbMkM5mdji6As+4HICTJGP7Z/QrAFgFY0x5Wyy5dPwMrM3PU4Z99bQiEQihKNyInJQ2+wHWc+rtrggFHRxN6bg6OjBOueFa/kUkF1Y4NRPxdZPWa+XnYbFoWy73m/CtnjqFloG9kjnmfx7buLco7WjVTn4g2EGWEx+clz1S/1qm036/6MDAcvkU5BMFLPKvWN6tXprX6wKuS5MGpiGrtIdAOd+nr741k6nazOO37GNg4DZD6ACvPtds2havzrldFZaWwFGXv/V8QwomAVMrabZsGIoFOeFVYXI43WfIOEJLvwY1k0M4kQ7DiQuHGMZeD5rMlv/bAAhHk3QCPlu9kMAbcOp14u7Gk/LT2eUQJ0+p0FEvijwB6Fszjg2liou1NZ//8CZWVcjKZuF52JleVJQFiAzO/BEIdhNjvKSmvjSeF/wEQYae30Q3tvwAAAABJRU5ErkJggg=="
-
-/***/ }),
-
-/***/ 102:
-/*!*******************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/static/zy.png ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAADmklEQVRIS92Wb0zVVRjHP8/5/e4lTFixNFrlG7QlDdjlWmmwasut9edNkkpiq5ZNxaJovHCtF2z5pjctMflTurVlMrXaMKE2Y8w3rRoXkjEzC7S2u0wmMAmM+/vztHtvCBcucmn1pvPq7JzzPJ/nz/ecHWERI9Q8WWjUvOs7dlVvjQxlYiqZHCqs12D2rc4OVfYAOYpGLeW17l1ZnyxkPz9AVUItFOO7GwR9AbgzjbN+MdYBYs6JSM0NA+lgUtwwcUfADrysYBANqnKTQIFCoUDeQhFO70tUVc8g/GKQK8CECkEpbYyFge7MHS3u5P8QsDIP9j5up61D56CPEchfml4b7ed8us5riu2cEq1eJhx6Oj2g/Uefu5cJBXnpAfu+8fiw178+IG5a+4ChqsTijZMupy4onz1jc3M2PHjA5eONdgJQ2+ESHUtGW1lk2FBokREgblCz1vBcyKK1z+PMkFJXZpEdgHXvuxzdnARUtDpcGE0GW32f4cXwPwDMzDXm6b8PONzn8cN/mUHdl25CFe3P2uRlp5boWL/H6J/JHNfcLoRuM4vvgesrqmAbcPxUQDodL7rJA8PKyFWlOD8py3iTy1YIS4Ppn4ufLiuDI6l7Et43WaSW9M1cnlLR7BI9ecjl8gQ8tkq46pCQ8I1BeGq1cKRfiXmzwEJM7t2v+Z44v01tBS2oKzNU3GNx/KzHH7G4A0N2QIheUTYdcTmx1SY3CypaXTYVGbYUWzR+63GwJ/WSgUQTuZc2xn4Hlsfn5SuEvU+kv8ndUZ+vf1Vq1ll8ftajvsvnliXQtsUmfuU2tLpcGp/OQlU6koCmWDPK9vg8bnBss835EWVgRBkcVratsVgSIBF960Y70fR49NGxpLNX1hqeD1l8cc7jzc7pLAReSgD+7kMPkDb0KZl2Dfo8usriYMSj8btpR/FytVXZ5ASh8qjLz8Nxr3JxfGz0rmuvVmmT8w6qten08dYjhpygsPukx9YSw0ff+0zOauj6AmFoHE5fTL5PgqmKVNuHrwFWNmhWru1+BVqeXoSZr4qYpshOuzoJmjHub9DcmO20CTycubtZuofmyKXALuolUcM5D3u4RQPqO2+j8iqoyRwkE4h5vWen1TLTZt5vS3i/U65G30MpWQgiIh0YuyayXeZ8Xa7/8apXE17uVar4u1GKUkAiitKpsKe3OnBqviAy+tnFjUONznpBtoE+BPKpGv+D3h3B0wtl9xevj64tVeCgwgAAAABJRU5ErkJggg=="
 
 /***/ }),
 
@@ -1968,10 +1957,21 @@ function normalizeComponent (
 
 /***/ }),
 
+/***/ 110:
+/*!*********************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/static/zy.png ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAYAAAB75n/uAAADmklEQVRIS92Wb0zVVRjHP8/5/e4lTFixNFrlG7QlDdjlWmmwasut9edNkkpiq5ZNxaJovHCtF2z5pjctMflTurVlMrXaMKE2Y8w3rRoXkjEzC7S2u0wmMAmM+/vztHtvCBcucmn1pvPq7JzzPJ/nz/ecHWERI9Q8WWjUvOs7dlVvjQxlYiqZHCqs12D2rc4OVfYAOYpGLeW17l1ZnyxkPz9AVUItFOO7GwR9AbgzjbN+MdYBYs6JSM0NA+lgUtwwcUfADrysYBANqnKTQIFCoUDeQhFO70tUVc8g/GKQK8CECkEpbYyFge7MHS3u5P8QsDIP9j5up61D56CPEchfml4b7ed8us5riu2cEq1eJhx6Oj2g/Uefu5cJBXnpAfu+8fiw178+IG5a+4ChqsTijZMupy4onz1jc3M2PHjA5eONdgJQ2+ESHUtGW1lk2FBokREgblCz1vBcyKK1z+PMkFJXZpEdgHXvuxzdnARUtDpcGE0GW32f4cXwPwDMzDXm6b8PONzn8cN/mUHdl25CFe3P2uRlp5boWL/H6J/JHNfcLoRuM4vvgesrqmAbcPxUQDodL7rJA8PKyFWlOD8py3iTy1YIS4Ppn4ufLiuDI6l7Et43WaSW9M1cnlLR7BI9ecjl8gQ8tkq46pCQ8I1BeGq1cKRfiXmzwEJM7t2v+Z44v01tBS2oKzNU3GNx/KzHH7G4A0N2QIheUTYdcTmx1SY3CypaXTYVGbYUWzR+63GwJ/WSgUQTuZc2xn4Hlsfn5SuEvU+kv8ndUZ+vf1Vq1ll8ftajvsvnliXQtsUmfuU2tLpcGp/OQlU6koCmWDPK9vg8bnBss835EWVgRBkcVratsVgSIBF960Y70fR49NGxpLNX1hqeD1l8cc7jzc7pLAReSgD+7kMPkDb0KZl2Dfo8usriYMSj8btpR/FytVXZ5ASh8qjLz8Nxr3JxfGz0rmuvVmmT8w6qten08dYjhpygsPukx9YSw0ff+0zOauj6AmFoHE5fTL5PgqmKVNuHrwFWNmhWru1+BVqeXoSZr4qYpshOuzoJmjHub9DcmO20CTycubtZuofmyKXALuolUcM5D3u4RQPqO2+j8iqoyRwkE4h5vWen1TLTZt5vS3i/U65G30MpWQgiIh0YuyayXeZ8Xa7/8apXE17uVar4u1GKUkAiitKpsKe3OnBqviAy+tnFjUONznpBtoE+BPKpGv+D3h3B0wtl9xevj64tVeCgwgAAAABJRU5ErkJggg=="
+
+/***/ }),
+
 /***/ 12:
-/*!***********************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/index.js ***!
-  \***********************************************************************************************************/
+/*!*************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/index.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2116,9 +2116,9 @@ var install = function install(Vue) {
 /***/ }),
 
 /***/ 13:
-/*!**********************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/mixin/mixin.js ***!
-  \**********************************************************************************************************************/
+/*!************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/mixin/mixin.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2172,9 +2172,9 @@ var install = function install(Vue) {
 /***/ }),
 
 /***/ 14:
-/*!************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/request/index.js ***!
-  \************************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/request/index.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2353,9 +2353,9 @@ new Request();exports.default = _default;
 /***/ }),
 
 /***/ 15:
-/*!*****************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/deepMerge.js ***!
-  \*****************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/deepMerge.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2394,9 +2394,9 @@ deepMerge;exports.default = _default;
 /***/ }),
 
 /***/ 16:
-/*!*****************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/deepClone.js ***!
-  \*****************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/deepClone.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2428,9 +2428,9 @@ deepClone;exports.default = _default;
 /***/ }),
 
 /***/ 17:
-/*!************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/test.js ***!
-  \************************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/test.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2671,9 +2671,9 @@ function code(value) {var len = arguments.length > 1 && arguments[1] !== undefin
 /***/ }),
 
 /***/ 18:
-/*!*******************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/queryParams.js ***!
-  \*******************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/queryParams.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2740,9 +2740,9 @@ queryParams;exports.default = _default;
 /***/ }),
 
 /***/ 19:
-/*!*************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/route.js ***!
-  \*************************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/route.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3587,13 +3587,11 @@ Dep.SharedObject.targetStack = [];
 function pushTarget (target) {
   Dep.SharedObject.targetStack.push(target);
   Dep.SharedObject.target = target;
-  Dep.target = target;
 }
 
 function popTarget () {
   Dep.SharedObject.targetStack.pop();
   Dep.SharedObject.target = Dep.SharedObject.targetStack[Dep.SharedObject.targetStack.length - 1];
-  Dep.target = Dep.SharedObject.target;
 }
 
 /*  */
@@ -8362,7 +8360,7 @@ function type(obj) {
 
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
-        if (Object({"VUE_APP_NAME":"qingua-wechat","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8383,14 +8381,14 @@ function nextTick$1(vm, cb) {
     //1.nextTick 之前 已 setData 且 setData 还未回调完成
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
-        if(Object({"VUE_APP_NAME":"qingua-wechat","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
         }
         return nextTick(cb, vm)
     }else{
-        if(Object({"VUE_APP_NAME":"qingua-wechat","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+        if(Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -8434,14 +8432,13 @@ function cloneWithData(vm) {
   }, ret);
 
   // vue-composition-api
-  var compositionApiState = vm.__composition_api_state__ || vm.__secret_vfa_state__;
-  var rawBindings = compositionApiState && compositionApiState.rawBindings;
+  var rawBindings = vm.__secret_vfa_state__ && vm.__secret_vfa_state__.rawBindings;
   if (rawBindings) {
     Object.keys(rawBindings).forEach(function (key) {
       ret[key] = vm[key];
     });
   }
-
+  
   //TODO 需要把无用数据处理掉，比如 list=>l0 则 list 需要移除，否则多传输一份数据
   Object.assign(ret, vm.$mp.data || {});
   if (
@@ -8476,7 +8473,7 @@ var patch = function(oldVnode, vnode) {
     });
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
-      if (Object({"VUE_APP_NAME":"qingua-wechat","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -8884,9 +8881,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 20:
-/*!******************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/timeFormat.js ***!
-  \******************************************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/timeFormat.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8947,9 +8944,9 @@ timeFormat;exports.default = _default;
 /***/ }),
 
 /***/ 21:
-/*!****************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/timeFrom.js ***!
-  \****************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/timeFrom.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9004,9 +9001,9 @@ timeFrom;exports.default = _default;
 /***/ }),
 
 /***/ 22:
-/*!*********************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/colorGradient.js ***!
-  \*********************************************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/colorGradient.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9114,9 +9111,9 @@ function rgbToHex(rgb) {
 /***/ }),
 
 /***/ 23:
-/*!************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/guid.js ***!
-  \************************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/guid.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9166,9 +9163,9 @@ guid;exports.default = _default;
 /***/ }),
 
 /***/ 24:
-/*!*************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/color.js ***!
-  \*************************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/color.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9214,9 +9211,9 @@ color;exports.default = _default;
 /***/ }),
 
 /***/ 25:
-/*!*****************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/type2icon.js ***!
-  \*****************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/type2icon.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9260,9 +9257,9 @@ type2icon;exports.default = _default;
 /***/ }),
 
 /***/ 26:
-/*!*******************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/randomArray.js ***!
-  \*******************************************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/randomArray.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9278,9 +9275,9 @@ randomArray;exports.default = _default;
 /***/ }),
 
 /***/ 27:
-/*!***************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/addUnit.js ***!
-  \***************************************************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/addUnit.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9297,9 +9294,9 @@ function addUnit() {var value = arguments.length > 0 && arguments[0] !== undefin
 /***/ }),
 
 /***/ 28:
-/*!**************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/random.js ***!
-  \**************************************************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/random.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9318,9 +9315,9 @@ random;exports.default = _default;
 /***/ }),
 
 /***/ 29:
-/*!************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/trim.js ***!
-  \************************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/trim.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9375,9 +9372,9 @@ module.exports = g;
 /***/ }),
 
 /***/ 30:
-/*!*************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/toast.js ***!
-  \*************************************************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/toast.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9395,21 +9392,10 @@ toast;exports.default = _default;
 
 /***/ }),
 
-/***/ 309:
-/*!**********************************************************!*\
-  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! regenerator-runtime */ 310);
-
-/***/ }),
-
 /***/ 31:
-/*!*****************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/getParent.js ***!
-  \*****************************************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/getParent.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9464,7 +9450,18 @@ function getParent(name, keys) {
 
 /***/ }),
 
-/***/ 310:
+/***/ 317:
+/*!**********************************************************!*\
+  !*** ./node_modules/@babel/runtime/regenerator/index.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! regenerator-runtime */ 318);
+
+/***/ }),
+
+/***/ 318:
 /*!************************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime-module.js ***!
   \************************************************************/
@@ -9495,7 +9492,7 @@ var oldRuntime = hadRuntime && g.regeneratorRuntime;
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
 
-module.exports = __webpack_require__(/*! ./runtime */ 311);
+module.exports = __webpack_require__(/*! ./runtime */ 319);
 
 if (hadRuntime) {
   // Restore the original runtime.
@@ -9512,7 +9509,7 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 311:
+/***/ 319:
 /*!*****************************************************!*\
   !*** ./node_modules/regenerator-runtime/runtime.js ***!
   \*****************************************************/
@@ -10244,10 +10241,39 @@ if (hadRuntime) {
 
 /***/ }),
 
-/***/ 319:
-/*!*****************************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/components/simple-address/city-data/province.js ***!
-  \*****************************************************************************************************************************************/
+/***/ 32:
+/*!*****************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/$parent.js ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
+// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
+// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
+// 值(默认为undefined)，就是查找最顶层的$parent
+function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
+  var parent = this.$parent;
+  // 通过while历遍，这里主要是为了H5需要多层解析的问题
+  while (parent) {
+    // 父组件
+    if (parent.$options && parent.$options.name !== name) {
+      // 如果组件的name不相等，继续上一级寻找
+      parent = parent.$parent;
+    } else {
+      return parent;
+    }
+  }
+  return false;
+}
+
+/***/ }),
+
+/***/ 327:
+/*!*******************************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/components/simple-address/city-data/province.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10398,39 +10424,10 @@ provinceData;exports.default = _default;
 
 /***/ }),
 
-/***/ 32:
-/*!***************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/$parent.js ***!
-  \***************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = $parent; // 获取父组件的参数，因为支付宝小程序不支持provide/inject的写法
-// this.$parent在非H5中，可以准确获取到父组件，但是在H5中，需要多次this.$parent.$parent.xxx
-// 这里默认值等于undefined有它的含义，因为最顶层元素(组件)的$parent就是undefined，意味着不传name
-// 值(默认为undefined)，就是查找最顶层的$parent
-function $parent() {var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : undefined;
-  var parent = this.$parent;
-  // 通过while历遍，这里主要是为了H5需要多层解析的问题
-  while (parent) {
-    // 父组件
-    if (parent.$options && parent.$options.name !== name) {
-      // 如果组件的name不相等，继续上一级寻找
-      parent = parent.$parent;
-    } else {
-      return parent;
-    }
-  }
-  return false;
-}
-
-/***/ }),
-
-/***/ 320:
-/*!*************************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/components/simple-address/city-data/city.js ***!
-  \*************************************************************************************************************************************/
+/***/ 328:
+/*!***************************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/components/simple-address/city-data/city.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11945,10 +11942,10 @@ cityData;exports.default = _default;
 
 /***/ }),
 
-/***/ 321:
-/*!*************************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/components/simple-address/city-data/area.js ***!
-  \*************************************************************************************************************************************/
+/***/ 329:
+/*!***************************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/components/simple-address/city-data/area.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24505,9 +24502,9 @@ areaData;exports.default = _default;
 /***/ }),
 
 /***/ 33:
-/*!***********************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/sys.js ***!
-  \***********************************************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/sys.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24524,9 +24521,9 @@ function sys() {
 /***/ }),
 
 /***/ 34:
-/*!****************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/debounce.js ***!
-  \****************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/debounce.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24564,9 +24561,9 @@ debounce;exports.default = _default;
 /***/ }),
 
 /***/ 35:
-/*!****************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/function/throttle.js ***!
-  \****************************************************************************************************************************/
+/*!******************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/function/throttle.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24607,9 +24604,9 @@ throttle;exports.default = _default;
 /***/ }),
 
 /***/ 36:
-/*!************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/config/config.js ***!
-  \************************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/config/config.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24631,9 +24628,9 @@ var version = '1.7.3';var _default =
 /***/ }),
 
 /***/ 37:
-/*!************************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/uview-ui/libs/config/zIndex.js ***!
-  \************************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/uview-ui/libs/config/zIndex.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24661,9 +24658,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 4:
-/*!****************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/pages.json ***!
-  \****************************************************************************************************/
+/*!******************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/pages.json ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -24671,10 +24668,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
-/***/ 51:
-/*!***************************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/pages/wechat-login.js ***!
-  \***************************************************************************************************************/
+/***/ 59:
+/*!*****************************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/pages/wechat-login.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24715,9 +24712,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 
 /***/ 8:
-/*!******************************************************************************************************!*\
-  !*** D:/WeChat/WeChat Files/wxid_3as8xnsvlr9722/FileStorage/File/2020-11/qingua-wechat/api/index.js ***!
-  \******************************************************************************************************/
+/*!********************************************************************!*\
+  !*** C:/Users/61056/Desktop/qg-wechat/qinguan-wechat/api/index.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

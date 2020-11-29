@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/login/login",
+    "pages/user-info/user-info",
     "pages/register/register",
     "pages/reset/reset",
     "pages/need-detail/need-detail",
@@ -72,5 +73,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap89.json"
 }

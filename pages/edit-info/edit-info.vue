@@ -5,7 +5,7 @@
 			<view class="special-item">
 				<label class="special-item__label">编辑头像</label>
 				<view class="special-item__box">
-					<u-upload :custom-btn="true" max-count="1">
+					<u-upload :custom-btn="true" max-count="1" :show-progress="false">
 						<view slot="addBtn" class="slot-btn"  hover-class="slot-btn__hover" hover-stay-time="150">
 							<view class="item-tx">
 								<image src="../../static/tx.png" mode="widthFix"></image>
@@ -92,7 +92,7 @@
 			</form-item>
 			<form-item label="公司logo" desc="（最佳尺寸为200*200像素，大小限制800kb)">
 				<view class="upload">
-					<g-upload ref='gUpload' :mode="form.logo" @chooseFile='chooseFile' @imgDelete='imgDelete' :columnNum="3"></g-upload>
+					<g-upload ref='gUpload' :mode="form.logo" :columnNum="3"></g-upload>
 				</view>
 			</form-item>
 			<view class="primary-btn">下一步</view>
@@ -102,6 +102,9 @@
 </template>
 
 <script>
+	import {
+		APIGET
+	} from "@/api/index.js"
 	import HeadTitle from "@/components/title/index.vue"
 	import FormItem from "@/components/form-item/index.vue"
 	import SelectItem from "@/components/select/index.vue"
@@ -112,7 +115,7 @@
 			return {
 				form: {
 					imgs: [{
-						url: 'http://pics.sc.chinaz.com/files/pic/pic9/201912/hpic1886.jpg',
+						url: '',
 					}],
 					account: '',
 					name: '',
@@ -136,21 +139,33 @@
 				pickerText: ''
 			}
 		},
+		onLoad(){
+			this.queryUserData()
+		},
 		methods: {
+			/**
+			 * 查询用户信息
+			 */
+			queryUserData(){
+				const vm = this;
+				APIGET('/api/user/profile',{
+					token: '98c3b67f-b08d-4d8e-974a-6aa85f3a35fb'
+				},function(resp){
+					const data = resp.data.data
+					vm.form.name = data.nickname;
+					vm.form.qq = data.qqid;
+					vm.form.wechat = data.wxid;
+					vm.form.introduce = data.introduce;
+				})
+			},
+			
+			
 			showCity() {
 				// 根据 label 获取
 				var index = this.$refs.simpleAddress.queryIndex(['湖北省', '随州市', '曾都区'], 'label');
 				console.log(index);
 				this.cityPickerValueDefault = index.index;
 				this.$refs.simpleAddress.open();
-			},
-			imgDelete(list, eq) {
-				console.log("删除图片_list：", list)
-				console.log("删除图片_eq：", eq)
-			},
-			chooseFile(list, v) {
-				console.log("上传图片_list：", list)
-				console.log("上传图片_v：", v)
 			},
 			onConfirm(e) {
 				this.form.addr = e.label;

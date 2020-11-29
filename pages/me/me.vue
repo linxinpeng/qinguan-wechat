@@ -32,7 +32,7 @@
 				<text>合作历史</text>
 			</view>
 			<view class="line"></view>
-			<view class="actions-item" @click="handleToEdit('has')">
+			<view class="actions-item" @click="handleCheckUserinfo">
 				<view>
 					<image src="../../static/mp.png" mode="widthFix"></image>
 				</view>
@@ -139,7 +139,13 @@
 		},
 		methods: {
 
-
+			
+			handleCheckUserinfo(){
+				uni.navigateTo({
+					url: "../user-info/user-info"
+				})
+			},
+			
 			handlePhoneNumber(e) {
 				console.log(e)
 			},

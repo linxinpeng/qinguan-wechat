@@ -571,7 +571,7 @@ export default {
 	height: 200rpx;
 	overflow: hidden;
 	margin: 10rpx;
-	background: rgb(244, 245, 246);
+	// background: rgb(244, 245, 246);
 	position: relative;
 	border-radius: 10rpx;
 	/* #ifndef APP-NVUE */
@@ -582,7 +582,7 @@ export default {
 }
 
 .u-preview-wrap {
-	border: 1px solid rgb(235, 236, 238);
+	// border: 1px solid rgb(235, 236, 238);
 }
 
 .u-add-wrap {
