@@ -86,6 +86,13 @@
 		</view>
 
 		<view class="me-list">
+			<view class="list-item" @click="handleToIdent">
+				<image class="item-icon" src="../../static/wd0.png" mode="widthFix"></image>
+				<text>职员认证</text>
+				<view class="list-item__arrow">
+					<image src="../../static/jt333.png" mode="widthFix"></image>
+				</view>
+			</view>
 			<view class="list-item" @click="handleToCompany">
 				<image class="item-icon" src="../../static/gsrz.png" mode="widthFix"></image>
 				<text>公司认证</text>
@@ -139,7 +146,11 @@
 		},
 		methods: {
 
-			
+			handleToIdent(){
+				uni.navigateTo({
+					url: "../staff-certification/staff-certification"
+				})
+			},
 			handleCheckUserinfo(){
 				uni.navigateTo({
 					url: "../user-info/user-info"

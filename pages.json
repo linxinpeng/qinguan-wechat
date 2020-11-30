@@ -14,6 +14,19 @@
 			}
 		},
 		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			"path":"pages/staff-certification/staff-certification",
+			"style": {
+				"navigationBarTitleText": "职员认证"
+			}
+		},
+		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录",

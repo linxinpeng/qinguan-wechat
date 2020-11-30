@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+    "pages/staff-certification/staff-certification",
     "pages/login/login",
     "pages/user-info/user-info",
     "pages/register/register",
@@ -74,5 +76,5 @@
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap89.json"
+  "sitemapLocation": "sitemap28.json"
 }
