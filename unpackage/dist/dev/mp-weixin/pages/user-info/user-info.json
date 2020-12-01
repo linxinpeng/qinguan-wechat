@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "用户信息",
-  "usingComponents": {
-    "head-title": "/components/title/index",
-    "form-item": "/components/form-item/index"
-  }
-}

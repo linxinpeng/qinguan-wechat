@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "反馈",
-  "usingComponents": {
-    "g-upload": "/components/g-upload/g-upload",
-    "form-item": "/components/form-item/index"
-  }
-}

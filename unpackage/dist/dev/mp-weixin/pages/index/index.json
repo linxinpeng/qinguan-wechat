@@ -1,7 +1,0 @@
-{
-  "navigationBarTitleText": "谈合作",
-  "usingComponents": {
-    "m-search": "/components/mehaotian-search/mehaotian-search",
-    "business-card": "/components/business-card/index"
-  }
-}

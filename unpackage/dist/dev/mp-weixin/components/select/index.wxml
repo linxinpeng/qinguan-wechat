@@ -1,1 +1,0 @@
-<picker value="{{index}}" range="{{options}}" data-event-opts="{{[['change',[['handleChange',['$event']]]]]}}" bindchange="__e"><view class="select"><input placeholder="{{placeholder}}" placeholder-class="plac" disabled="{{true}}" value="{{value}}"/><image src="../../static/jtxx.png" mode="widthFix"></image></view></picker>

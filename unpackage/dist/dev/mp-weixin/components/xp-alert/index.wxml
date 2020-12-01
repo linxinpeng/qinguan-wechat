@@ -1,1 +1,0 @@
-<view data-event-opts="{{[['tap',[['handleClose',['$event']]]]]}}" hidden="{{!(visible)}}" class="xp-alert" bindtap="__e"><view class="xp-alert__content"><slot></slot></view></view>

@@ -1,1 +1,0 @@
-<view class="title" style="{{'color:'+(color)+';'}}">{{''+title}}<text class="title-desc">{{desc}}</text></view>
